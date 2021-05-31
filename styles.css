@@ -1,13 +1,13 @@
 * {
   margin: 0;
-  padding: 0;
+ padding: 0px;
   box-sizing: border-box;
 }
 
 body {
   height: 100vh;
   background-color: rgb(66, 66, 66);
-  display: flex;
+  /* display: flex; */
 }
 
 .gameContainer {
@@ -38,6 +38,14 @@ body {
 .card.flip {
   transform: rotateY(180deg);
   cursor: pointer;
+}
+.bottom {
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  color: #ffffff;
+  text-align:center;
+  padding: 10px ;
 }
 
 .front,
